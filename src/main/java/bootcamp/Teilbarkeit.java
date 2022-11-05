@@ -1,6 +1,6 @@
 package bootcamp;
 
-public class LocalTime {
+public class Teilbarkeit {
 
     public static void main(String[] args) {
 
