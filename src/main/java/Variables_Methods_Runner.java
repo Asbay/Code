@@ -1,4 +1,6 @@
 public class Variables_Methods_Runner {
+/*
+
 
     public static String isim_ps="ali";
     public String isim_p="Veli";
@@ -15,5 +17,5 @@ public class Variables_Methods_Runner {
     public static void main(String[] args) {
 
         System.out.println(isim_pris);  //Gulsum
-        System.out.println(isim);
+        System.out.println(isim);*/
 }
