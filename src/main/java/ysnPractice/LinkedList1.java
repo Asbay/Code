@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 public class LinkedList1 {
-
+}
 
     /*
        /*  TASK:
@@ -13,7 +13,7 @@ public class LinkedList1 {
                 "Bu isim LinkedList'de vardi ve silindi" diye mesaj verin
                Girilen isim yoksa "Bu isim LinkedList'de yok bu yuzden silinemedi" diye mesaj verin
 
-          */
+
     public static void main(String[] args) {
         LinkedList1<String> ll1=new LinkedList<>(Arrays.asList("AYSE","EMEL","HARUN","IREM"));
         Scanner input = new Scanner(System.in);
@@ -27,5 +27,5 @@ public class LinkedList1 {
             System.out.println("Bu isim LinkedList'de yok bu yuzden silinemedi");
 
     }
-}
+}*/
 
