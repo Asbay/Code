@@ -10,7 +10,7 @@ public class FibonacciRekursive {
 
 
     public static int fibo(int n) {
-     //F(o) = 0; F(1) =1
+     //F(0) = 0; F(1) =1
        // F(2)= F(1)+F(0)
         // F(3)= F(2) +F(1)
         // F(n) = F( n-1) + F(n-2)
