@@ -14,18 +14,16 @@ public class ArraydekiBuyukKucukSayiyiBulma {
 
         Scanner input= new Scanner(System.in);
         System.out.println("Arrayin uzunlugunu giriniz");
-        int uzunluk = input.nextInt();
-        int[] arr = new int[uzunluk];
-
-        System.out.println("Arrayin elemanlarini giriniz");
-
-        for(int i =0 ; i< arr.length;i++){
+        int length = input.nextInt();
+        int arr[] = new int[length];
+        for (int i=0; i<= arr.length-1; i++){
             arr[i]= input.nextInt();
         }
+        System.out.println(Arrays.toString(arr));
+
         Arrays.sort(arr);
-
-        int fark= arr[uzunluk-1] - arr[0];
-        System.out.println(fark);
-
+        System.out.println(Arrays.toString(arr));
+        int dif = arr[length-1]- arr[0];
+        System.out.println("fark"+ "="+ dif);
     }
 }
